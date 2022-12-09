@@ -4,8 +4,44 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+    border: 1px solid blue;
+}
+
 body {
     font-family:Arial, Helvetica, sans-serif;
     line-height: 2rem;
     color: black;
+    font-size: 2rem;
+    height: 100%;
+}
+
+h1 {
+    padding: 4rem;
+    text-align: center;
+    color: #49b66b;
+} 
+
+ul {
+    font-size: 1.8rem;
+    color: #4646B3;
+}
+
+ul li {
+    text-align: center;
+    padding: 5rem;
+}
+
+ul li p {
+    width: 100%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #AB00FF;
+}
+
+ul li a:hover {
+    color: #4646B3;
 }
