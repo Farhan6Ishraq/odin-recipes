@@ -4,10 +4,28 @@
     margin: 0;
 }
 
-html {
-    height: 100%;
+body {
+    line-height: 2rem;
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    border: 1px solid blue;
+    background-color: #B75B57;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fdfbfb;
 }
 
-body {
-    height: 100%;
+img {
+    max-width: 100%;
+    width: 500px;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #9BCCD0;
+}
+
+h2 {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem; 
+    color: #9BCCD0;
 }
